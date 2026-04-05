@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>NEXUS · estación de código</title>
     <style>
-        /* ===============================================
-           TEMA: WINDOWS XP BLACK EDITION (ROYALE NOIR) - VERSIÓN NEGRO PURO
-           =============================================== */
-        * {
+ * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -262,7 +259,6 @@
             color: #cccccc;
         }
 
-        /* --- MODALES CON TEXTO PEQUEÑO --- */
         .modal-overlay {
             position: fixed;
             top: 0;
@@ -466,9 +462,6 @@
     </div>
 </div>
 
-<!-- ===================== MODALES ===================== -->
-
-<!-- MODAL CONTACTO -->
 <div id="modal-contacto" class="modal-overlay" onclick="cerrarModalSiBackground(event,'contacto')">
     <div class="modal-content">
         <div class="callsign" style="font-size:1.2rem;">NEXUS::CÓDIGO <span>El Proyecto</span></div>
@@ -482,7 +475,6 @@
     </div>
 </div>
 
-<!-- MODAL ACERCA DE -->
 <div id="modal-acerca" class="modal-overlay" onclick="cerrarModalSiBackground(event,'acerca')">
     <div class="modal-content">
         <h3>Acerca de NEXUS</h3>
@@ -496,7 +488,6 @@
     </div>
 </div>
 
-<!-- MODAL ENGINE -->
 <div id="modal-engine" class="modal-overlay" onclick="cerrarModalSiBackground(event,'engine')">
     <div class="modal-content">
         <h3>NEXUS OPTIMIZER Tools</h3>
@@ -518,7 +509,6 @@
     </div>
 </div>
 
-<!-- MODAL CLEAN -->
 <div id="modal-clean" class="modal-overlay" onclick="cerrarModalSiBackground(event,'clean')">
     <div class="modal-content">
         <h3>NEXUS CLEAN Pro</h3>
@@ -538,7 +528,6 @@
     </div>
 </div>
 
-<!-- MODAL DATA -->
 <div id="modal-data" class="modal-overlay" onclick="cerrarModalSiBackground(event,'data')">
     <div class="modal-content">
         <h3>NEXUS BACKUP - Pro</h3>
@@ -560,7 +549,6 @@
     </div>
 </div>
 
-<!-- MODAL INTERFACE -->
 <div id="modal-interface" class="modal-overlay" onclick="cerrarModalSiBackground(event,'interface')">
     <div class="modal-content">
         <h3>Proyecto 4</h3>
@@ -572,7 +560,7 @@
 </div>
 
 <script>
-    // --- SLIDER (NO MUEVE LA PÁGINA) ---
+
     const slides = [
         { titulo: "NEXUS OPTIMIZER", subtitulo: "Optimización completa para Windows 10/11", items: ["✅ Optimización completa del sistema","✅ Limpieza de archivos temporales","✅ Bloquear Windows Update y Defender","✅ Activar Windows 10/11 offline","✅ 100% portable, sin instalación"] },
         { titulo: "NEXUS CLEAN PRO", subtitulo: "Limpiador profesional para Windows", items: ["✅ Limpieza de archivos temporales","✅ Limpieza de navegadores","✅ Limpieza y optimización del registro","✅ Gestor de programas de inicio","✅ Desinstalador de aplicaciones","✅ Vaciar papelera de reciclaje"] },
@@ -587,7 +575,6 @@
     render();
     setInterval(() => { idx = (idx+1) % slides.length; render(); }, 8000);
 
-    // --- FUNCIONES MODALES ---
     function abrirModal(id) { 
         document.getElementById('modal-'+id).style.display = 'flex'; 
         document.body.style.overflow = 'hidden'; 
