@@ -17,17 +17,16 @@ Prioridad en estructura clara, funcionalidad sólida y diseño sin ruido.
 
 [https://proyecto-nexus.github.io/](https://proyecto-nexus.github.io/)
 
-## 📘 Redes
+## 🔗 Enlaces
 
+[![Web](https://img.shields.io/badge/Web-proyecto--nexus.github.io-3f6eb0?style=flat&logo=google-chrome&logoColor=white)](https://proyecto-nexus.github.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-Proyecto--Nexus-181717?style=flat&logo=github&logoColor=white)](https://github.com/Proyecto-Nexus)
 [![Facebook](https://img.shields.io/badge/Facebook-NEXUS.Codigo-1877F2?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/NEXUS.Codigo)
+[![PayPal](https://img.shields.io/badge/PayPal-@NEXUSCodigoMX-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/NEXUSCodigoMX)
 
 ## 📬 Contacto
 
 nexus.codigo.access@gmail.com
-
-## 💙 Colaboraciones
-
-PayPal: @NEXUSCodigoMX
 
 ---
 
