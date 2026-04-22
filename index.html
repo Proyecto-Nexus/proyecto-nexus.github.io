@@ -593,34 +593,42 @@
 
 <div id="modal-android" class="modal-overlay" onclick="cerrarModalSiBackground(event,'android')">
     <div class="modal-content">
-        <h3>📱 Aplicaciones Android</h3>
+        <h3>📱 Apps NEXUS</h3>
         <div class="modal-desc" style="font-size:0.8rem; color:#bbb; margin-bottom:18px;">
             Aplicaciones ligeras, sin publicidad, con la calidad NEXUS.
         </div>
         
         <!-- Reproductor MP3 -->
-        <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #111; border-radius: 6px; margin-bottom: 8px;">
-            <span style="font-size: 1.8rem;">🎵</span>
-            <div style="flex: 1;">
-                <div style="font-weight: bold; color: #fff; font-size: 0.9rem;">
-                    Reproductor MP3 
-                    <span style="background: #3f6eb0; color: white; font-size: 0.5rem; padding: 2px 6px; border-radius: 10px; margin-left: 8px;">NUEVO</span>
+        <div style="padding: 12px; background: #111; border-radius: 6px; margin-bottom: 12px;">
+            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                <span style="font-size: 1.8rem;">🎵</span>
+                <div style="flex: 1;">
+                    <div style="font-weight: bold; color: #fff; font-size: 0.9rem; display: flex; align-items: center; flex-wrap: wrap; gap: 6px;">
+                        Reproductor MP3
+                        <span style="background: #3f6eb0; color: white; font-size: 0.5rem; padding: 2px 6px; border-radius: 10px;">NUEVO</span>
+                    </div>
+                    <div style="font-size: 0.7rem; color: #888;">v3.0 · Reproductor ligero con servicio en background</div>
                 </div>
-                <div style="font-size: 0.7rem; color: #888;">v3.0 · Reproductor ligero con servicio en background</div>
             </div>
-            <span style="background: #1a3a1a; color: #6A9955; padding: 2px 8px; border-radius: 12px; font-size: 0.65rem; font-weight: bold;">DISPONIBLE</span>
-            <button onclick="window.open('https://github.com/Proyecto-Nexus/proyecto-nexus.github.io/releases/download/v1.0/reproductor-mp3.apk', '_blank')" style="background: #1e3a5f; border: 1px solid #2a5a8a; color: #aad0ff; padding: 8px 16px; border-radius: 4px; font-size: 0.7rem; font-weight: bold; cursor: pointer;">DESCARGAR</button>
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <span style="background: #1a3a1a; color: #6A9955; padding: 4px 8px; border-radius: 12px; font-size: 0.65rem; font-weight: bold; text-align: center;">DISPONIBLE</span>
+                <button onclick="window.open('https://github.com/Proyecto-Nexus/proyecto-nexus.github.io/releases/download/v1.0/reproductor-mp3.apk', '_blank')" style="background: #1e3a5f; border: 1px solid #2a5a8a; color: #aad0ff; padding: 10px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; cursor: pointer; width: 100%;">DESCARGAR</button>
+            </div>
         </div>
         
         <!-- Block de Notas -->
-        <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #111; border-radius: 6px; margin-bottom: 8px; opacity: 0.7;">
-            <span style="font-size: 1.8rem;">📝</span>
-            <div style="flex: 1;">
-                <div style="font-weight: bold; color: #fff; font-size: 0.9rem;">Block de Notas</div>
-                <div style="font-size: 0.7rem; color: #888;">Próximamente</div>
+        <div style="padding: 12px; background: #111; border-radius: 6px; margin-bottom: 12px; opacity: 0.7;">
+            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                <span style="font-size: 1.8rem;">📝</span>
+                <div style="flex: 1;">
+                    <div style="font-weight: bold; color: #fff; font-size: 0.9rem;">Block de Notas</div>
+                    <div style="font-size: 0.7rem; color: #888;">Próximamente</div>
+                </div>
             </div>
-            <span style="background: #3a2a1a; color: #CE9178; padding: 2px 8px; border-radius: 12px; font-size: 0.65rem; font-weight: bold;">PRONTO</span>
-            <button disabled style="background: #1a1a1a; border: 1px solid #333; color: #666; padding: 8px 16px; border-radius: 4px; font-size: 0.7rem; font-weight: bold; cursor: not-allowed;">DESCARGAR</button>
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <span style="background: #3a2a1a; color: #CE9178; padding: 4px 8px; border-radius: 12px; font-size: 0.65rem; font-weight: bold; text-align: center;">PRONTO</span>
+                <button disabled style="background: #1a1a1a; border: 1px solid #333; color: #666; padding: 10px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; cursor: not-allowed; width: 100%;">DESCARGAR</button>
+            </div>
         </div>
         
         <div style="margin-top: 18px; padding-top: 12px; border-top: 1px solid #222; text-align: right;">
