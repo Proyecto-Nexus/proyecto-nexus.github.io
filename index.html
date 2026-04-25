@@ -388,6 +388,10 @@
             .callsign, .id-tag { text-align: center; }
             .mobile-badge { display: block; text-align: center; margin: 10px 0; }
             .text-slider { min-height: 220px; }
+            .callsign span {
+    display: block;
+    margin-left: 0;
+}
         }
         .mobile-badge { display: none; }
     </style>
@@ -420,7 +424,7 @@
         <div class="project-panel">
             <div class="project-card" onclick="abrirModal('engine')">
                 <div class="project-code">// ENGINE</div>
-                <h3>CENTRAL COMMAND OPTIMIZER</h3>
+                <h3>OPTIMIZER Pro</h3>
                 <div class="project-desc">Programa para la optimización profunda del sistema, con limpieza de residuos, desactivación de servicios innecesarios y activación offline de Windows.</div>
                 <div class="feature-line"><span class="feature-icon">✅</span> Optimización completa de la computadora</div>
                 <div class="feature-line"><span class="feature-icon">✅</span> Bloqueo de telemetría y datos de diagnóstico</div>
@@ -434,7 +438,7 @@
             </div>
             <div class="project-card" onclick="abrirModal('clean')">
                 <div class="project-code">// CLEAN</div>
-                <h3>CENTRAL COMMAND CLEANER</h3>
+                <h3>CLEANER Pro</h3>
                 <div class="project-desc">Programa para la puesta a punto del equipo, con herramientas de limpieza, optimización de servicios y activación persistente del sistema.</div>
                 <div class="feature-line"><span class="feature-icon">✅</span> Elimina archivos basura Windows</div>
                 <div class="feature-line"><span class="feature-icon">✅</span> Limpieza Chrome, Edge, Firefox</div>
@@ -448,7 +452,7 @@
             </div>
             <div class="project-card" onclick="abrirModal('data')">
                 <div class="project-code">// DATA</div>
-                <h3>CENTRAL COMMAND BACKUP</h3>
+                <h3>BACKUP Android Pro</h3>
                 <div class="feature-line"><span class="feature-icon">✅</span> Respaldo total Android</div>
                 <div class="feature-line"><span class="feature-icon">✅</span> Backup de apps instaladas</div>
                 <div class="feature-line"><span class="feature-icon">✅</span> Fotos, videos y audios</div>
@@ -463,7 +467,7 @@
     <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
         <span style="font-size: 2.5rem;">🤖</span>
         <div>
-            <h3 style="margin:0; border:none; padding:0;">Aplicaciones Central Command</h3>
+            <h3 style="margin:0; border:none; padding:0;">Aplicaciones Android</h3>
             <div style="font-size:0.65rem; color:#888;">Para Android 7.0+</div>
         </div>
     </div>
@@ -639,9 +643,9 @@
 
 <script>
     const slides = [
-        { titulo: "CENTRAL COMMAND OPTIMIZER", subtitulo: "Optimización completa para Windows 10/11", items: ["✅ Optimización completa del sistema","✅ Limpieza de archivos temporales","✅ Bloquear Windows Update y Defender","✅ Activar Windows 10/11 offline","✅ 100% portable, sin instalación"] },
-        { titulo: "CENTRAL COMMAND CLEANER", subtitulo: "Limpiador profesional para Windows", items: ["✅ Limpieza de archivos temporales","✅ Limpieza de navegadores","✅ Limpieza y optimización del registro","✅ Gestor de programas de inicio","✅ Desinstalador de aplicaciones","✅ Vaciar papelera de reciclaje"] },
-        { titulo: "CENTRAL COMMAND BACKUP", subtitulo: "Respaldo profesional para Android", items: ["✅ Backup de apps instaladas","✅ Backup de fotos, videos, audios","✅ Backup de documentos y descargas","✅ Backup de WhatsApp","✅ Restauración automática","✅ Factory Reset desde la PC"] }
+        { titulo: "OPTIMIZADOR WINDOWS 10/11", subtitulo: "Optimización completa para Windows 10/11", items: ["✅ Optimización completa del sistema","✅ Limpieza de archivos temporales","✅ Bloquear Windows Update y Defender","✅ Activar Windows 10/11 offline","✅ 100% portable, sin instalación"] },
+        { titulo: "CLEANER LIMPIEZA PRO", subtitulo: "Limpiador profesional para Windows", items: ["✅ Limpieza de archivos temporales","✅ Limpieza de navegadores","✅ Limpieza y optimización del registro","✅ Gestor de programas de inicio","✅ Desinstalador de aplicaciones","✅ Vaciar papelera de reciclaje"] },
+        { titulo: "FULL BACKUP ANDROID PRO", subtitulo: "Respaldo profesional para Android", items: ["✅ Backup de apps instaladas","✅ Backup de fotos, videos, audios","✅ Backup de documentos y descargas","✅ Backup de WhatsApp","✅ Restauración automática","✅ Factory Reset desde la PC"] }
     ];
     let idx = 0;
     const container = document.getElementById('slideContainer');
